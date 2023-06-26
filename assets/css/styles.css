@@ -11593,16 +11593,16 @@ html {
   max-height: 45rem;
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 25%;
   transform: translateX(-50%);
 }
-.profile .dots-1 {
+/*.profile .dots-1 {
   position: absolute;
   width: 3vw;
   right: 1.5vw;
   top: 4vw;
 }
-.profile .dots-1 svg {
+ .profile .dots-1 svg {
   fill: #fff;
 }
 .profile .dots-2 {
@@ -11708,7 +11708,7 @@ html {
     left: -2vw;
   }
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .profile {
     height: 35vw;
     width: 35vw;
@@ -11731,5 +11731,4 @@ html {
   .profile .dots-4 {
     width: 1.5vw;
     left: -2vw;
-  }
-}
+  } */

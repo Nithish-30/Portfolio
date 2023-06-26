@@ -9,15 +9,9 @@
             <section>
                 <div class="d-flex align-items-center justify-content-between mb-4">
                     <h2 class="text-primary fw-bolder mb-0">Experience</h2>
-                    <!-- Download resume button -->
-                    <!-- Note: Set the link href target to a PDF file within your project-->
-                    <!-- <a class="btn btn-primary px-4 py-3" href="#!"> -->
-                        <!-- <div class="d-inline-block bi bi-download me-2"></div> -->
-                        <!-- Download Resume -->
-                    <!-- </a> -->
                 </div>
                 <!-- Experience Card 1-->
-                <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card shadow-md border-0 rounded-4 mb-2">
                     <div class="card-body p-3">
                         <div class="row align-items-center gx-5">
                             <div class="col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
@@ -33,7 +27,7 @@
                     </div>
                 </div>
                 <!-- Experience Card 2-->
-                <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card shadow-md border-0 rounded-4 mb-5">
                     <div class="card-body p-3">
                         <div class="row align-items-center gx-5">
                             <div class="col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
@@ -53,18 +47,18 @@
             <section>
                 <h2 class="text-secondary fw-bolder mb-4">Education</h2>
                 <!-- Education Card 1-->
-                <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card shadow-md border-0 rounded-4 mb-2">
                     <div class="card-body p-3">
                         <div class="row align-items-center gx-3">
                             <div class="col-lg-6">
                                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                    <div class="bg-light p-4 rounded-4">
+                                    <div class="p-4 rounded-4">
                                         <div class="text-secondary fw-bolder mb-2">2021 - 2023</div>
                                         <div class="mb-2">
                                             <div class="small fw-bolder">Kongu Arts and Science College (Autonomous)</div>
-                                            <div class="small text-muted">Nanjanapuram, Erode</div>
+                                            <div class="small text-muted">Erode</div>
                                         </div>
-                                        <div class="fst-italic">
+                                        <div>
                                             <div class="small text-muted">Master's of Computer Applications</div>
                                             <!-- <div class="small text-muted">Computer Applications</div> -->
                                         </div>
@@ -74,13 +68,13 @@
                             
                             <div class="col-lg-6">
                                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                    <div class="bg-light p-4 rounded-4">
+                                    <div class="p-4 rounded-4">
                                         <div class="text-secondary fw-bolder mb-2">2018 - 2021</div>
                                         <div class="mb-2">
                                             <div class="small fw-bolder">Kongu Arts and Science College (Autonomous)</div>
-                                            <div class="small text-muted">Nanjanapuram, Erode</div>
+                                            <div class="small text-muted">Erode</div>
                                         </div>
-                                        <div class="fst-italic">
+                                        <div>
                                             <div class="small text-muted">Bachelors of Computer Applications</div>
                                             <!-- <div class="small text-muted">Computer Applications</div> -->
                                         </div>
@@ -92,17 +86,17 @@
                 </div>
 
                 <!-- Education Card 2-->
-                <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card shadow-md border-0 rounded-4 mb-5">
                     <div class="card-body p-3">
                         <div class="row align-items-center gx-3">
                             <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                <div class="bg-light p-4 rounded-4">
+                                <div class="p-4 rounded-4">
                                     <div class="text-secondary fw-bolder mb-2">2017 - 2018</div>
                                     <div class="mb-2">
                                         <div class="small fw-bolder">Subash Matric Higher Secondary School</div>
-                                        <div class="small text-muted">Murugampalayam, Tiruppur</div>
+                                        <div class="small text-muted">Tiruppur</div>
                                     </div>
-                                    <div class="fst-italic">
+                                    <div>
                                         <div class="small text-muted">Higher Secondary</div>
                                         <!-- <div class="small text-muted">Web Development</div> -->
                                     </div>
@@ -110,13 +104,13 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                    <div class="bg-light p-4 rounded-4">
+                                    <div class="p-4 rounded-4">
                                         <div class="text-secondary fw-bolder mb-2">2015 - 2016</div>
                                         <div class="mb-2">
                                             <div class="small fw-bolder">Subash Matric Higher Secondary School</div>
-                                            <div class="small text-muted">Murugampalayam, Tiruppur</div>
+                                            <div class="small text-muted">Tiruppur</div>
                                         </div>
-                                        <div class="fst-italic">
+                                        <div>
                                             <div class="small text-muted">Secondary Education</div>
                                             <!-- <div class="small text-muted">Web Development</div> -->
                                         </div>
@@ -132,7 +126,7 @@
             <!-- Skills Section-->
             <section>
                 <!-- Skillset Card-->
-                <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card shadow-md border-0 rounded-4 mb-5">
                     <div class="card-body p-5">
                         <!-- Professional skills list-->
                     <!--  <div class="mb-5">

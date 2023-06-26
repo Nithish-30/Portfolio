@@ -19,6 +19,10 @@ class Portfolio extends CI_Model
         {
             foreach($query->result() as $row)               //looping the data of table as row
             {
+                foreach($row as $key=>$value)
+                {
+                    $row->$key=htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
+                }
                 $data[]=$row;                   //storing the rows in array
             }
         }

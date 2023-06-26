@@ -48,7 +48,6 @@ class Welcome extends CI_Controller
 		$data['rows']=$this->Portfolio->getContent();		// assign the getContent() function to the array variable
 
 		$this->load->view('projects',$data);
-			
 		$this->footer();
 
 	}
@@ -65,11 +64,8 @@ class Welcome extends CI_Controller
 
 	public function footer()
 	{
-		$data['copyright']='Nithish Saran, 2023. All rights reserved.';
-		$data['phno']='+91 9566412523';
-		$data['mail']='nithishsaranm@gmail.com';
 
-		$this->load->view('includes/footer',$data);
+		$this->load->view('includes/footer');
 	}
 
 }
