@@ -1,14 +1,6 @@
-<style>
-    /* Active navigation link styles */
-    .nav-item .nav-link.active {
-        color: #ffffff;
-        background-color: #007bff;
-    }
-</style>
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -28,14 +20,33 @@
 
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="<?php echo base_url(); ?>/assets/css/styles.css" rel="stylesheet" />
-    </head>
+
+        <style>
+            .navbar-nav .nav-item:hover .nav-link,
+            .navbar-nav .nav-item.active .nav-link{
+                font-size: larger;
+                
+            }
+
+            @media (max-width: 991.98px) {
+                .navbar-nav .nav-item .nav-link {
+                    padding: 0.5rem 1rem;
+                }
+            }
+        </style>
+    
+</head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 position-fixed fixed-top">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="<?php echo $greet[1]; ?>"><span class="fw-bolder text-primary text-gradient d-inline"><?php echo $greet[0]; ?></span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <a class="navbar-brand" href="<?php echo $greet[1]; ?>">
+                        <span class="fw-bolder text-primary text-gradient d-inline"><?php echo $greet[0]; ?></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                             <li class="nav-item"><a class="nav-link" href="<?php echo $nav_link[0]; ?>"><span class="text-dark"><?php echo $nav[0];?></span></a></li>

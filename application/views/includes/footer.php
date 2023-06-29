@@ -37,6 +37,12 @@
                     <i class="bi bi-file-person"></i>
                 </a>
 
+                <span class="ms-3"></span> <!-- Add empty span for spacing -->
+                
+                <a class="text-gradient mr-auto p-10" href="https://github.com/Nithish-30">
+                    <i class="bi bi-github"></i>
+                </a>
+
             </div>
         </div>
     </div>

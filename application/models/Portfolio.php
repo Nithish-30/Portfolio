@@ -9,12 +9,16 @@ class Portfolio extends CI_Model
         $this->load->database();                //load the database
     }
 
+    public function generateCsrfToken(){
+        $token=bin2hex(random_bytes(32));
+        $this->session->set_userdata('csrf_token', $token);
+        return $token;
+    }
+
     public function getContent()
     {
         $query=$this->db->get('project');               //geting the data of table from the database
-        
         $data=array();
-
         if($query->num_rows()>0)                //checking the empty row of table using num_row() function          
         {
             foreach($query->result() as $row)               //looping the data of table as row
